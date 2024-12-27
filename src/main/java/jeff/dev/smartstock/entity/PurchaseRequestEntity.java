@@ -23,7 +23,7 @@ public class PurchaseRequestEntity {
 	@Field(name = "supplier_email")
 	private String supplierEmail;
 	@Field(name = "last_stock_update_time")
-	private String lastStockUpdateTime;
+	private LocalDateTime lastStockUpdateTime;
 	@Field(name = "purchase_quantity")
 	private Integer purchaseQuantity;
 	@Field(name = "purchase_with_success")
@@ -82,11 +82,11 @@ public class PurchaseRequestEntity {
 		this.supplierEmail = supplierEmail;
 	}
 
-	public String getLastStockUpdateTime() {
+	public LocalDateTime getLastStockUpdateTime() {
 		return lastStockUpdateTime;
 	}
 
-	public void setLastStockUpdateTime(String lastStockUpdateTime) {
+	public void setLastStockUpdateTime(LocalDateTime lastStockUpdateTime) {
 		this.lastStockUpdateTime = lastStockUpdateTime;
 	}
 
