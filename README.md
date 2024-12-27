@@ -1,6 +1,18 @@
 # Projeto Smart Stock 
 
-Neste projeto, aprendi a:
+Sistema que automatiza a recompra de itens. O fluxo principal consiste em ler um relatório CSV, verificar quais itens precisam de recompra, e enviar essa requisição para uma API simulada, e persistir o resultado em um banco de dados.
+
+## Tecnologias Utilizadas:
+
+*   **Spring Boot**: Framework para desenvolvimento backend Java.
+*   **Spring Data MongoDB**: Para interação com o banco de dados MongoDB.
+*   **OpenCSV**: Para ler e processar arquivos CSV.
+*   **OpenFeign**: Para realizar chamadas a APIs externas.
+*   **Mockoon**: Para simular o comportamento de APIs externas.
+*   **Docker**: Para conteinerização do banco de dados MongoDB.
+*   **Java 21**: Versão do Java utilizada no projeto.
+
+## Aprendi:
 - Integrar com MongoDB usando Spring Data e Docker
 - Ler e processar arquivos CSV com OpenCSV
 - Implementar regras de negócio para automação de recompra
