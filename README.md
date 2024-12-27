@@ -20,7 +20,7 @@ Agradeço ao Bruno Garcia e a Build & Run pelo apoio! 🙌
 
 ![img_solution](https://github.com/Jeff-bt/buildrun__smartstock/blob/main/assets/solution_smartStock.png)
 
-## Infra
+## Estrutura
 
 ```
 
